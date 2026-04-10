@@ -1,0 +1,13 @@
+name: dna_align_env
+channels:
+  - conda-forge
+dependencies:
+  - htslib
+  - bioawk
+  - bcftools
+  - bwa
+  - samtools
+  - picard
+  - trimmomatic
+  - fastplong
+prefix: /opt/homebrew/Caskroom/miniforge/base/envs/dna_align_env
